@@ -1,0 +1,4 @@
+gpiod>=2.0
+pyserial
+adafruit-circuitpython-bno055
+matplotlib

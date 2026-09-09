@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Device-specific calibration, regenerate with calibrate.py / calibrate_imu.py
+calibration.json
+imu_calibration.json
+
+# Test output
+data/*.csv
+!data/.gitkeep
+
+*#
+*.swp
+.DS_Store
+.vscode/
