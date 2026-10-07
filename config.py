@@ -44,7 +44,7 @@ GRAVITY_MS2 = 9.80665
 # converter plugged into a USB port -- NOT the Pi's GPIO UART pins.
 # This means the device shows up as a USB serial port, typically
 # /dev/ttyUSB0, rather than /dev/serial0.
-BNO055_UART_PORT = "/dev/ttyUSB0"
+BNO055_UART_PORT = "/dev/serial0"
 BNO055_UART_BAUD = 115200
 
 # ---------------------------------------------------------------------

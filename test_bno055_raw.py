@@ -16,7 +16,7 @@ return 0xA0 if the sensor is alive and communicating correctly.
 import serial
 import time
 
-PORT = "/dev/ttyUSB0"
+PORT = "/dev/serial0"
 BAUD = 115200
 
 print(f"Opening {PORT} at {BAUD} baud...")

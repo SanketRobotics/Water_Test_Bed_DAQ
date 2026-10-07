@@ -52,7 +52,7 @@ WRITE_RESPONSE_OK = 0xEE
 WRITE_SUCCESS_CODE = 0x01
 
 # Axis sign correction -- see bno055_sensor.py for why (mounting-dependent)
-ACCEL_SIGN = (1, 1, -1)  # (x_sign, y_sign, z_sign)
+ACCEL_SIGN = (-1, 1, 1)  # (x_sign, y_sign, z_sign)
 
 
 class BNO055UARTError(Exception):
