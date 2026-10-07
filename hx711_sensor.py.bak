@@ -57,8 +57,7 @@ class OutlierFilter:
     def check(self, value):
         if value is None:
             return None
-        if (value == FULL_SCALE_GLITCH_HIGH or value == FULL_SCALE_GLITCH_LOW
-                or (value & 0xFFF) == 0xFFF):
+        if value == FULL_SCALE_GLITCH_HIGH or value == FULL_SCALE_GLITCH_LOW:
             self._consecutive_rejects += 1
             return None
         if not self.history:
